@@ -21,3 +21,6 @@ This folder contains Binary and Multiclass Intrusion Detection models developed 
 - XGBoost
 - SHAP
 - Python
+
+## Dataset Source
+- NSL-KDD: https://www.kaggle.com/datasets/hassan06/nslkdd
