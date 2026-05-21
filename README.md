@@ -32,5 +32,9 @@ XGBoost-Optimized Bidirectional RNNs with Attention and SHAP Explainability for 
 - F1-Score
 - Confusion Matrix
 
+## Dataset Source
+- NSL-KDD: https://www.kaggle.com/datasets/hassan06/nslkdd
+- UNSW-NB15: https://www.kaggle.com/datasets/mrwellsdavid/unsw-nb15
+
 ## Author
 Sakthivel
