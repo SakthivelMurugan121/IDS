@@ -2,13 +2,29 @@
 
 XGBoost-Optimized Bidirectional RNNs with Attention and SHAP Explainability for Intrusion Detection
 
-## Features
-- XGBoost-based feature selection
+## Overview
+This project focuses on developing an Explainable AI-based Intrusion Detection System using deep learning techniques for binary and multiclass cyber-attack detection.
+
+The framework integrates:
 - Bidirectional RNN, LSTM, and GRU models
-- Attention mechanism integration
-- SHAP explainability
-- Binary and Multiclass classification
-- NSL-KDD and UNSW-NB15 datasets
+- Attention Mechanism
+- SHAP Explainability
+- XGBoost Feature Selection
+- Class Balancing and Preprocessing
+
+## Datasets Used
+- NSL-KDD
+- UNSW-NB15
+
+## Implemented Tasks
+- Binary Classification
+- Multiclass Classification
+- Confusion Matrix Analysis
+- SHAP Feature Interpretation
+
+## Folder Structure
+- NSL-KDD → Models and notebooks related to NSL-KDD dataset
+- UNSW-NB15 → Models and notebooks related to UNSW-NB15 dataset
 
 ## Technologies Used
 - Python
@@ -21,20 +37,20 @@ XGBoost-Optimized Bidirectional RNNs with Attention and SHAP Explainability for 
 - Matplotlib
 - Seaborn
 
-## Datasets
-- NSL-KDD
-- UNSW-NB15
+## Models Implemented
+- Bidirectional Simple RNN
+- Bidirectional LSTM
+- Bidirectional GRU
 
-## Performance Metrics
-- Accuracy
-- Precision
-- Recall
-- F1-Score
-- Confusion Matrix
+## Key Features
+- Attention-based feature prioritization
+- Explainable AI integration using SHAP
+- Optimized feature selection using XGBoost
+- Deep learning-based cyber-attack detection
 
 ## Dataset Source
 - NSL-KDD: https://www.kaggle.com/datasets/hassan06/nslkdd
 - UNSW-NB15: https://www.kaggle.com/datasets/mrwellsdavid/unsw-nb15
 
 ## Author
-Sakthivel
+Sakthivel M
